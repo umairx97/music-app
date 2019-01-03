@@ -39,4 +39,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Something Missing?
 
-If you have ideas for more “How To” recipes that should be on this page, [let me know](https://github.com/umairx97) or [contribute some!](https://github.com/umairx97/music-app.git/readme.md)
+If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/umairx97/music-app/edit/master/README.md)
