@@ -5,6 +5,8 @@ import Routes from "./routes";
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
 
+import reducers from './reducers'; 
+
 const App = () => {
   return <div>hello</div>;
 };
@@ -13,7 +15,7 @@ const App = () => {
 const createStoreWithMiddleware = applyMiddleware()(createStore)
 
 ReactDOM.render(
-  <Provider store = {createStoreWithMiddleware()}>
+  <Provider store = {createStoreWithMiddleware(reducers)}>
     <App />
   </Provider>,
   document.getElementById("root")
